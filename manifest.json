@@ -1,0 +1,18 @@
+{
+  "manifest_version": 1,
+  "name": "Facetweak",
+  "description": "An add-on to make facebook nicer",
+  "version": "0.1.0",
+  "author": "Brian Birtles",
+  "content_scripts": [{
+    "matches": ["*://m.facebook.com/*"],
+    "js": ["facetweak.js", "facetweak-css.js"],
+    "css": []
+  }],
+  "icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  }
+}
