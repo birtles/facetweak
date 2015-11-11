@@ -1,4 +1,3 @@
-
 function injectCSS() {
   if (document.getElementById('facetweak-style')) {
     return;

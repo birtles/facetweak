@@ -9,16 +9,10 @@
     "facebook"
   ],
   "author": "Brian Birtles",
-  "license": "ISC",
+  "license": "MPL-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/birtles/facetweak/"
   },
-  "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^0.5.4",
-    "gulp-zip": "^3.0.2"
-  }
+  "scripts": {"start": "node build.js"}
 }
